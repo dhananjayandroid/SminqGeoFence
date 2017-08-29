@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SminqGeoFence.iml" filepath="$PROJECT_DIR$/SminqGeoFence.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/SminqGeoFence.iml" filepath="$PROJECT_DIR$/.idea/SminqGeoFence.iml" />
+      <module fileurl="file://D:\Work\Projects\GitHub\SminqGeoFence\SminqGeoFence.iml" filepath="D:\Work\Projects\GitHub\SminqGeoFence\SminqGeoFence.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://D:\Work\Projects\GitHub\SminqGeoFence\app\app.iml" filepath="D:\Work\Projects\GitHub\SminqGeoFence\app\app.iml" />
     </modules>
   </component>
 </project>

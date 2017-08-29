@@ -94,7 +94,6 @@ class GeoFencePresenter implements GeoFenceContract.Presenter, OnCompleteListene
      * Removes geofences. This method should be called after the user has granted the location
      * permission.
      */
-    @SuppressWarnings("MissingPermission")
     public void removeGeoFences() {
         if (!mView.haveSufficientPermission()) {
             return;
@@ -126,7 +125,6 @@ class GeoFencePresenter implements GeoFenceContract.Presenter, OnCompleteListene
      * This sample hard codes geofence data. A real app might dynamically create geofences based on
      * the user's location.
      */
-    @SuppressWarnings("Convert2streamapi")
     private void populateGeoFenceList() {
         for (Map.Entry<String, LatLng> entry : Constants.GEO_FENCE_CO_ORDINATES.entrySet()) {
 

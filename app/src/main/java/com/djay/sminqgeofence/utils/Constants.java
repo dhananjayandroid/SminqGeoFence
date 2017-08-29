@@ -47,7 +47,7 @@ public final class Constants {
     public static final float GEOFENCE_RADIUS_IN_METERS = 1609; // 1 mile, 1.6 km
 
     /**
-     * Map for storing information about airports in the San Francisco bay area.
+     * Map for storing information of GEO-FENCES.
      */
     public static final HashMap<String, LatLng> GEO_FENCE_CO_ORDINATES = new HashMap<>();
 
